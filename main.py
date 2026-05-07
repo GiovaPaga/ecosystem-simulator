@@ -15,7 +15,6 @@ ERBAST_AGE = 0
 
 class Vegetob:
     def __init__(self, density):
-        # todo: aggiungere range check 0-100
         density = range(100)
         self.density = density
 
